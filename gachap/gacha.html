@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Coupon for 365</title>
+    <link href="gachastyle.css" rel="stylesheet">
+    <script src="gacha.js"></script>
+
+	<!-- start icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- end icon -->
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  	<link rel="stylesheet" href="../style.css">
+      <script type="script1.js"></script>
+	  <script src="../Shop/Cart.js"></script>
+</head>
+
+	
+<body>
+    <!-- Header start -->
+	<section id="header">
+		<a href="#"><img src="../img/for.png" class="logo" alt=""></a>
+		<div>
+			<ul id="navbar">
+				<li><a href="../index.html"><i class='bx bx-store' ></i>Home</a></li>
+				<div class="dropdown">
+					<li><a href="../shop/shop.html" class="dropbtn">Shop<i class='bx bxs-chevron-down'></i></a></li>
+					<div class="dropdown-content">
+					  <a href="../shop/Men.html">Man</a>
+					  <a href="../shop/Women.html">Women</a>
+					</div>
+				</div>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../contact.html">Contact</a></li>
+				<li><a href="gacha.html"><i class='bx bxs-color'></i></a></li>
+				
+			</ul>
+		</div>
+		<div class="nav-icon">
+			<div class="nav-icon">
+				<a href="#"><i class='bx bx-search-alt-2' ></i></a>
+				<a href="../loginsignup/index.html"><i class='bx bx-user'></i></a>
+				<!-- Cart-Icon -->
+				<i class='bx bx-shopping-bag' id="cart-icon"></i>
+				<!-- Cart -->
+				<div class="cart">
+					<h2 class="cart-title">Your Cart</h2>
+					<!-- Content -->
+					<div class="cart-content">
+	
+					</div>
+					<!-- Total -->
+					<div class="total">
+						<div class="total-title">Total</div>
+						<div class="total-price">0円</div>
+					</div>
+					<!-- Buy Button -->
+					<button type="button" class="btn-buy">Buy Now</button>
+					<!-- Cart Close -->
+					<i class='bx bx-x' id="close-cart"></i>
+	
+				</div>
+			</div>
+
+			<!-- <div class="bx bx-menu" id="menu-icon"></div> -->
+		</div>
+	</section>
+	<!-- header end -->
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="../img/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../img/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="../img/features/f6.png" alt="">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+	<!-- Gachap coupon -->
+    <section class="gacha-box">
+        <div class="mainbox" id="mainbox">
+            <div class="box" id="box">
+                <div class="box1">
+                  <span class="font span1"><b>No.4</b></span>
+                  <span class="font span2"><b>Good luck!!!</b></span>
+                  <span class="font span3"><b>No.1</b></span>
+                  <span class="font span4"><b>No.5</b></span>
+                  <span class="font span5"><b>Good luck!!!</b></span>
+                </div>
+                <div class="box2">
+                  <span class="font span1"><b>No.3</b></span>
+                  <span class="font span2"><b>Good luck!!!</b></span>
+                  <span class="font span3"><b>Discount 50%</b></span>
+                  <span class="font span4"><b>Good luck!!!</b></span>
+                  <span class="font span5"><b>No.2</p></b></span>
+                </div>
+            </div>
+            <button class="spin" onclick="spin()">SPIN</button>
+        </div>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <section class="table-coupon">
+        <!-- <link rel="stylesheet" href="../../../Table/style.css"> -->
+            <div class="header_fixed">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Image</th>
+                            <th>Product Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="../img/STORE/WOMEN/WomenClothing/TSHIRT/WCT10a.PNG"></td>
+                            <td>Women Tshirt</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img src="../img/STORE/MEN/MenBags/MB1a.PNG"></td>
+                            <td>Men Tshirt</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><img src="../img/STORE/WOMEN/WomenShoes/WS1a.PNG"></td>
+                            <td>Women Shoes</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><img src="../img/STORE/WOMEN/WomenAccessories/HATS/WAH1a.PNG"></td>
+                            <td>Women hat</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><img src="../img/STORE/MEN/MenAccessories/Hats/MAH1a.PNG"></td>
+                            <td>Men Hat</td>
+                        
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
+
+	<!-- log in by e-mail -->
+	<section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+<footer class="section-p1">
+	<div class="col">
+		<img class="logo" src="../img/for.png" alt="">
+		<h4>Contact</h4>
+		<p><strong>Address: </strong> Yokohama, Kanagawa, Japan </p>
+		<p><strong>Phone:</strong> +012 345 6789</p>
+		<p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+		<div class="follow">
+			<h4>Follow Us</h4>
+			<div class="icon">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-pinterest-p"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="col">
+		<h4>About</h4>
+		<a href="#">About Us</a>
+		<a href="#">Delivery Information</a>
+		<a href="#">Privacy Policy</a>
+		<a href="#">Terms & Conditions</a>
+		<a href="#">Contact Us</a>
+	</div>
+
+	<div class="col">
+		<h4>My Account</h4>
+		<a href="#">Sign In</a>
+		<a href="#">View Cart</a>
+		<a href="#">My Wishlist</a>
+		<a href="#">Track My Order</a>
+		<a href="#">Help</a>
+	</div>
+
+	<div class="col install">
+		<h4>Install App</h4>
+		<p>From App Store or Google Play</p>
+		<div class="row1">
+			<img src="../img/pay/app.jpg" alt="">
+			<img src="../img/pay/play.jpg" alt="">
+		</div>
+		<p>Secured Payment Gateways </p>
+		<img src="../img/pay/pay.png" alt="">
+	</div>
+	<div class="copyright">
+		<p>Copyright © @2022 All Rights Reserved. Designed by For365</p>
+	</div>
+
+
+        </footer>
+    </body>
+</html>

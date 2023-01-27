@@ -1,0 +1,150 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+<link href="gachastyle.css" rel="stylesheet">
+<link href="../style1.css" rel="stylesheet">
+
+
+<script src="gacha.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>For 365</title>
+
+	<!-- start icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- end icon -->
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  	<link rel="stylesheet" href="style1.css">
+</head>
+
+<header class="sticky">
+	<a href="index1.html" class="logo"><img src="img/for.png" alt=""></a>
+	
+
+	<ul class="navmenu">
+		<li><a href="index1.html"><i class='bx bx-store' ></i>Home</a></li>
+		<li><a href="shop.html">Shop</a></li>
+		<li><a href="gachap/gacha.html"><i class='bx bxs-color'></i></a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">About</a></li>
+	</ul>
+
+	<div class="nav-icon">
+		<a href="#"><i class='bx bx-search-alt-2' ></i></a>
+		<a href="#"><i class='bx bx-user'></i></a>
+		<!-- Cart-Icon -->
+		<i class='bx bx-shopping-bag' id="cart-icon"></i>
+		<!-- Cart -->
+		<div class="cart">
+			<h2 class="cart-title">Your Cart</h2>
+			<!-- Content -->
+			<div class="cart-content">
+
+			</div>
+			<!-- Total -->
+			<div class="total">
+				<div class="total-title">Total</div>
+				<div class="total-price">0円</div>
+			</div>
+			<!-- Buy Button -->
+			<button type="button" class="btn-buy">Buy Now</button>
+			<!-- Cart Close -->
+			<i class='bx bx-x' id="close-cart"></i>
+
+		</div>
+	</div>
+</header>
+
+<body>
+
+<div class="mainbox" id="mainbox">
+  <div class="box" id="box">
+    <div class="box1">
+      <span class="font span1"><b>2%</b></span>
+      <span class="font span2"><b>5%</b></span>
+      <span class="font span3"><b>10%</b></span>
+      <span class="font span4"><b>15%</b></span>
+    </div>
+    <div class="box2">
+      <span class="font span1"><b>8%</b></span>
+      <span class="font span2"><b>20%</b></span>
+      <span class="font span3"><b>25%</b></span>
+      <span class="font span4"><b>50%</b></span>
+    </div>
+  </div>
+  <button class="spin" onclick="spin()">SPIN</button>
+</div>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<footer class="section-p1">
+	<div class="col">
+		<img class="logo" src="img/for.png" alt="">
+		<h4>Contact</h4>
+		<p><strong>Address: </strong> Yokohama, Kanagawa, Japan </p>
+		<p><strong>Phone:</strong> +012 345 6789</p>
+		<p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+		<div class="follow">
+			<h4>Follow Us</h4>
+			<div class="icon">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-pinterest-p"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="col">
+		<h4>About</h4>
+		<a href="#">About Us</a>
+		<a href="#">Delivery Information</a>
+		<a href="#">Privacy Policy</a>
+		<a href="#">Terms & Conditions</a>
+		<a href="#">Contact Us</a>
+	</div>
+
+	<div class="col">
+		<h4>My Account</h4>
+		<a href="#">Sign In</a>
+		<a href="#">View Cart</a>
+		<a href="#">My Wishlist</a>
+		<a href="#">Track My Order</a>
+		<a href="#">Help</a>
+	</div>
+
+	<div class="col install">
+		<h4>Install App</h4>
+		<p>From App Store or Google Play</p>
+		<div class="row1">
+			<img src="../img/pay/app.jpg" alt="">
+			<img src="../img/pay/play.jpg" alt="">
+		</div>
+		<p>Secured Payment Gateways </p>
+		<img src="../img/pay/pay.png" alt="">
+	</div>
+	<div class="copyright">
+		<p>Copyright © @2022 All Rights Reserved. Designed by For365</p>
+	</div>
+	
+
+
+</footer>
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+</body>
